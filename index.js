@@ -15,6 +15,26 @@ console.log("Olá eu sou " + nomeCompleto + " estamos no ano " + anoAtual + " mi
 
 console.log(`Oi eu sou ${nomeCompleto} meu ano de nascimento ${anoNascimento} minha idade é ${idade}`)
 
+const loginCerto = "Djonathan";
+const senhaCerta = 345;
+console.log("---------------------- ");
+console.log("--AGÊNCIA DE VIAGENS--");
+console.log("---------------------- ");
+console.log("Faça seu login");
+
+var login = entrada("Digite seu login: ");
+var senha = entrada("Digite sua senha: ");
+
+while(login != loginCerto){
+  console.log("Login Incorreto");
+  login = entrada("Digite seu Login Novamente: ");
+  
+}
+while(senha != senhaCerta){
+  console.log("Senha Incorreta: ");
+  senha = entrada("Digite sua Senha Novamente: ");
+}
+
 const listaDeViagens = new Array(
   `Singapura`,
   `Seul`,
@@ -40,6 +60,6 @@ if(idadeComprador < 18){
  console.log(`Olá ${nomeComprador}, já que sua idade é ${idadeComprador} anos, não podemos vender nossas passagens!`);
 }
 if(idadeComprador >= 18){
-  console.log(`Olá senhor(a) ${nomeComprador} qual seu destino?, Aqui estão nossas opções:`);
+  console.log(`Olá senhor(a) ${nomeComprador} qual sua próxima aventura?, Aqui estão nossas opções:`);
   console.log(listaDeViagens);
 }
