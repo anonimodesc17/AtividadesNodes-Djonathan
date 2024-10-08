@@ -17,9 +17,9 @@ console.log(`Oi eu sou ${nomeCompleto} meu ano de nascimento ${anoNascimento} mi
 
 const loginCerto = "Djonathan";
 const senhaCerta = 345;
-console.log("---------------------- ");
-console.log("--AGÊNCIA DE VIAGENS--");
-console.log("---------------------- ");
+console.log("              ---------------------- ");
+console.log("             🗺️ --AGÊNCIA DE VIAGENS--🛫");
+console.log("              ---------------------- ");
 console.log("Faça seu login");
 
 var login = entrada("Digite seu login: ");
@@ -62,4 +62,5 @@ if(idadeComprador < 18){
 if(idadeComprador >= 18){
   console.log(`Olá senhor(a) ${nomeComprador} qual sua próxima aventura?, Aqui estão nossas opções:`);
   console.log(listaDeViagens);
-}
+
+ 
